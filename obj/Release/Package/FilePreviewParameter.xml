@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="StuffWorks" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\StuffWorks\\StuffWorks\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\StuffWorks\\StuffWorks\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="StuffWorks-Web.config Connection String" description="" value="Data Source=34.205.117.110,1433;Initial Catalog=StuffWorks;Integrated Security=True;User ID=sa;Password=Stuffworks@123" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\StuffWorks\\StuffWorks\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StuffWorks']/@connectionString" />
+  </parameter>
+</parameters>
